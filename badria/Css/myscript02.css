@@ -1,0 +1,16 @@
+let currentImageIndex = 0;
+
+function showImage(index) {
+    const mainImage = document.
+    getElementById("main");
+    mainImage.scr = document.
+    querySelectorAll(".side_view img")
+    [index].scr;
+    currentImageindex = index;
+}
+
+function nextImage() {
+    currentImageIndex = (currentImageIndex)
+    + 1) % 5; // Assuming 5 images
+    showImages()
+}

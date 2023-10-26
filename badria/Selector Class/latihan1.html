@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="myClass">Paragraf 1</p>
+    <p class="myClass">Paragraf 2</p>
+    <p class="myClass">Paragraf 3</p>
+
+    <button id="changeTextButton">Ubah Teks</button>
+
+    <script>
+      $(document).ready(function () {
+        $("#changeTextButton").click(function () {
+          $(".myClass").text("Teks telah diubah!");
+        });
+      });
+<script>
+</body>
+</html>
